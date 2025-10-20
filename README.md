@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ### 1. Обучение модели
 
 ```python
-# Положите capex_opex_train.csv в текущую директорию
+# Загрузите capex_opex_train.csv в текущую директорию
 # Запустите train.ipynb
 ```
 
@@ -29,8 +29,8 @@ pip install -r requirements.txt
 ### 2. Предсказание
 
 ```python
-# Положите capex_opex_public_test.csv в текущую директорию
-# Запустите predict.ipynb
+# Загрузите capex_opex_public_test.csv в текущую директорию
+# Запустите часть predict.ipynb
 ```
 
 **Результат:** файл `sample_submission_seed42.csv` с предсказаниями
