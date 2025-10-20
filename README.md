@@ -1,4 +1,5 @@
-# CAPEX/OPEX Classification
+# F. PRO: CAPEX vs OPEX (Астра)
+https://official.contest.yandex.ru/contest/79548/problems/F/
 
 Автоматическая классификация IT-задач по типу затрат (CAPEX vs OPEX) с использованием ML.
 
@@ -7,17 +8,6 @@
 Модель определяет тип затрат для IT-задач:
 - **CAPEX** (Capital Expenditure) - капитальные затраты на развитие
 - **OPEX** (Operational Expenditure) - операционные затраты на поддержку
-
-## Структура проекта
-
-```
-.
-├── train.ipynb                    # Обучение модели
-├── predict.ipynb                  # Генерация предсказаний
-├── requirements.txt               # Зависимости
-├── capex_opex_model.pkl          # Обученная модель (после запуска train.ipynb)
-└── README.md
-```
 
 ## Установка
 
